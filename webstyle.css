@@ -1,0 +1,250 @@
+
+.accueil{
+    margin: 0 auto;
+  background-color: lightgray;
+  overflow-y: auto;
+
+}
+#section1{
+    background-image: url('louvre.jpg');
+    background-image: url('beauty.jpg');
+    height: 500px;
+    display: 0 auto;
+    margin: auto;
+    margin-bottom: 0px;
+
+    animation-name: diapo1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+    @keyframes diapo1 {
+        0%{
+        background-image:url('louvre.jpg')
+        }
+        25%{
+            background-image: url('liberty.jpg');
+        }
+       
+        50%{
+            background-image:url('pharaon.jpg')
+        }
+        75%{
+            background-image: url('bridge.jpg');
+        }
+        100%{
+            background-image: url('louvre.jpg');
+        }
+       
+       
+        
+    }
+#logo{
+    width: 60px;
+    height: 40px;
+}
+
+.debut{   
+     background-color: rgb(84, 97, 84);
+     display:  flex;
+     
+
+}
+.navigation{
+   border-color: black;
+   display: inline-block;
+   padding:  10px;
+   margin: 10px;
+   border-radius: 20px 20px 20px 20px;
+   border:   2px solid lightgray;
+   background-color: rgb(105, 141, 105);  
+}
+.navigation:hover{
+background-color: lightgray;
+}
+li,a{
+    color: black;
+}
+
+h1{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#direction{
+    text-align: center;
+    color: rgb(60, 58, 58);
+    font-family:serif,arial;
+}  
+#text{
+    background-color:whitesmoke;
+    height: 270px;
+    margin-top: 0px;
+    margin: auto;
+    width: 800px;
+   
+}
+.salut{
+   text-align: center;
+   text-decoration: overline;
+   text-transform: lowercase;
+  
+} 
+#section2{
+ 
+  background-color: rgb(221, 219, 219);
+ 
+
+}
+.retour{
+ margin-top: 0px;
+ margin-left: 250px;
+ border: 1px solid black;
+ margin-bottom:0px;
+
+}
+i{
+    padding: 10px;
+    margin: 10px;
+}
+.network{
+    float: right;
+}
+
+.footer{
+    background-color: white;
+    height: 150px;   
+}
+#retour{
+    border: 1px solid color(black);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.top{
+    display: 0 auto;
+    height: 150px;
+   
+}
+#tokyo{
+    margin: 0 auto;
+    background-image:url(jap03.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 1000px;
+}
+.skytext{
+   background-color:rgb(218, 241, 223);
+   height: 1000px;
+   text-align: left;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ 
+}
+#location{
+  
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crl{
+    width: 500px;
+    height: 500px;
+   
+}
+#text1{
+    width: 400px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+   
+}
+#image1{
+    height: 350px;
+    width: 400px;
+    position: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.box{
+    background-color: rgb(84, 97, 84);
+    width: 450px;
+    margin-top: 10px;
+   
+}
+.box,.tokyo{
+    display: inline-block;
+    margin: 20px;
+}
+#text2{
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+#image2{
+    height: 350px;
+    width: 400px;
+    position: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+#medine{
+    margin: 0 auto;
+    background-image:url(nabawi02.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 1000px;
+
+}
+
+#dubai{
+    margin: 0 auto;
+    background-image:url(dubai1.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 1000px;
+
+
+}
+#perou{
+    margin: 0 auto;
+    background-image:url(macchu01.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 1000px;
+
+}
+#plateau{
+    margin: 0 auto;
+    background-image:url(egy00.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
